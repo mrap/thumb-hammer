@@ -8,8 +8,11 @@ function parsePreviewThumbnail(body) {
   let openGraphImageUrl = $('meta[property="og:image"]').attr('content');
   if (openGraphImageUrl) return openGraphImageUrl;
 
-  let largestImage = $('img').reduce((prev, curr) => {
-    return (curr.attribs.width > prev.attribs.width) ? curr : prev;
+  let largestImage = null;
+  $('img').each((i, elem) => {
+    if (!largestImage || elem.attribs.width > largestImage.attribs.width) {
+      largestImage = elem;
+    }
   });
 
   return largestImage.attribs.src;

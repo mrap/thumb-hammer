@@ -1,7 +1,7 @@
 {
   "name": "thumb-hammer",
   "description": "Get a preview thumbnail of a webpage.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Mike Rapadas <mike@mrap.me>",
   "repository": {
     "type": "git",
