@@ -30,4 +30,4 @@ function urlWithProtocol(url) {
   return !httpProtocolExp.test(url) ? "http://"+url : url;
 }
 
-export { parsePreviewThumbnail, requestPreviewThumbnail };
+module.exports = { parsePreviewThumbnail, requestPreviewThumbnail };
