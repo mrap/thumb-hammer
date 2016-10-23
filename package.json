@@ -16,5 +16,9 @@
     "webpage"
   ],
   "author": "Mike Rapadas <mike@mrap.me>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0"
+  }
 }
