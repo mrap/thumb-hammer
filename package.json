@@ -1,7 +1,12 @@
 {
   "name": "thumb-hammer",
-  "version": "0.0.1",
   "description": "Get a preview thumbnail of a webpage.",
+  "version": "0.0.1",
+  "author": "Mike Rapadas <mike@mrap.me>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrap/thumb-hammer.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +20,6 @@
     "url",
     "webpage"
   ],
-  "author": "Mike Rapadas <mike@mrap.me>",
   "license": "ISC",
   "devDependencies": {
     "cheerio": "^0.22.0",
